@@ -74,7 +74,7 @@
             <sup> sup </sup>
             <u> Statements... </u>
             <abbr title="National Aeronautics and Space Administration">NASA</abbr>
-            <strike> strikethrough </strike>
+            <s> strikethrough </s>
             <span><del> deprecated info </del> <ins> new info </ins> </span>
             <s> not relevant </s>
             <time datetime="2020-08-17 08:00">Monday at 8:00 AM</time>
@@ -133,11 +133,13 @@
         </video>
 
         <h2>Audio</h2>
-        <audio controls>
-            I'm sorry. You're browser doesn't support HTML5 <code>audio</code>.
-            <source src="https://archive.org/download/ReclaimHtml5/ReclaimHtml5.ogg" type="audio/ogg">
-            <source src="https://archive.org/download/ReclaimHtml5/ReclaimHtml5.mp3" type="audio/mpeg">
-        </audio>
+        <figure>
+          <figcaption>Listen to the T-Rex:</figcaption>
+          <audio controls src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3">
+            Your browser does not support the HTML5 <code>audio</code> element.
+          </audio>
+        </figure>
+
         <p>This is a recording of a talk called <cite>Reclaim HTML5</cite> which was orinally delieved in Vancouver at a <a href="http://www.meetup.com/vancouver-javascript-developers/" taget="_blank">Super VanJS Meetup</a>. It is hosted by <a href="https://archive.org/details/ReclaimHtml5"
           target="_blank">The Internet Archive</a> and licensed under <a href="http://creativecommons.org/licenses/by/3.0/legalcode" target="_blank">CC 3.0</a>.</p>
         
